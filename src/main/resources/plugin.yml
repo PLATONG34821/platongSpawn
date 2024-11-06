@@ -1,0 +1,14 @@
+name: platongSpawn
+version: '0.2'
+main: org.platong.PlatongSpawn
+api-version: '1.21'
+commands:
+  spawn:
+    description: Teleports you to the world spawn point
+    usage: /<command>
+    permission: platongspawn.spawn
+    permission-message: "§cYou don't have permission to use this command!"
+permissions:
+  platongspawn.spawn:
+    description: Allows use of the /spawn command
+    default: true
